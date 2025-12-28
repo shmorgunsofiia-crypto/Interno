@@ -1,16 +1,8 @@
 
-.logo {
-  height: 34px;
-  width: 34px;
-  display: block;
-fill: #cda274;
-
-}
-
 .interno-logo {
-fill: #292f36;
-width: 130px;
-height: 26px;
+width: 177px;
+height: 50px;
+color:#CDA274 ;
 }
 
 .home {
@@ -40,18 +32,15 @@ margin-left: auto;
 .header-list {
   display: flex;
   gap: 40px;
-  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  flex-direction: row;
 }
 
-.header-nav {
+/* .header-nav {
   display: flex;
   gap: 40px;
   background: rgba(255, 255, 255, 0.35);
-}
+} */
 
 .interno-title {
   font-family: "DM Serif Display", sans-serif;
@@ -60,8 +49,15 @@ margin-left: auto;
   line-height: 120%;
   letter-spacing: 0em;
   color: #292f36;
-  position: absolute;
-  background: rgba(255, 255, 255, 0.35);
+}
+
+.interno {
+  padding-top:187px ;
+  padding-bottom: 260px;
+   background-image: url(../images/starter-picture.png);
+   background-position: center;
+   background-size: 1440px;
+   background-repeat: no-repeat;
 }
 
 
@@ -75,11 +71,6 @@ margin-left: auto;
   display: flex;
 }
 
-.interno-picture {
-  width: 1440px;
-  height: 831px;
-  background: rgba(255, 255, 255, 0.35);
-}
 
 .interno-button {
   width: 207px;
@@ -91,7 +82,6 @@ margin-left: auto;
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
-  position: absolute;
   border-radius: 18px;
 fill: #292f36;
 border: 2px solid #292f36;
@@ -143,7 +133,6 @@ border: 2px solid #292f36;
   border-radius: 0 326px 0 123px;
   width: 592px;
   height: 635px;
-  position: relative;
 }
 
 .contact-pictures {
@@ -167,6 +156,8 @@ border: 2px solid #292f36;
   line-height: 130%;
   letter-spacing: 0em;
   color: #292f36;
+ height: 130px;
+ width: 450px;
 }
 
 .contact-text {
@@ -186,4 +177,92 @@ font-size: 45px;
 line-height: 130%;
 letter-spacing: 0em;
 text-align: center;
+}
+
+.people-names {
+  font-family: "Jost", sans-serif;
+font-weight: 400;
+font-size: 25px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #292f36;
+background-color: #F4F0EC;
+}
+
+.people-image {
+  border-radius: 100px;
+width: 77px;
+height: 77px;
+background-color: #F4F0EC;
+}
+
+
+.people-text {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #4d5053;
+background-color: #F4F0EC;
+}
+
+.people-sentence {
+   font-family: "Jost", sans-serif;
+  font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #4d5053;
+background-color: #F4F0EC;
+}
+
+
+.people-think {
+  background-color: #F4F0EC;
+}
+
+.modern-home {
+  width: 132px;
+height: 43px
+}
+
+.style {
+  width: 103px;
+  height: 103px;
+}
+
+.brand {
+  width: 164px;
+  height: 43px
+}
+
+.nature {
+  width: 145px;
+  height: 45px;
+}
+
+.design {
+  width: 145px;
+  height: 45px;
+}
+
+.projects-title {
+font-family:"DM Serif Display", sans-serif;
+  font-weight: 400;
+font-size: 47px;
+line-height: 133%;
+letter-spacing: 0em;
+text-align: center;
+color: #292f36;
+}
+
+.projects-sentence {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+letter-spacing: 0.01em;
+text-align: center;
+color: #4d5053;
 }
