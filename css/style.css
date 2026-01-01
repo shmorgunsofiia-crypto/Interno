@@ -69,6 +69,8 @@ margin-left: auto;
   letter-spacing: 0.01em;
   color: #4d5053;
   display: flex;
+  padding-top: 50px;
+  padding-bottom:35px ;
 }
 
 
@@ -248,13 +250,15 @@ height: 43px
 }
 
 .projects-title {
-font-family:"DM Serif Display", sans-serif;
-  font-weight: 400;
+font-family:"DM Serif Display", sans-serif; 
+color: #292f36;
+     font-weight: 400;
 font-size: 47px;
 line-height: 133%;
 letter-spacing: 0em;
 text-align: center;
-color: #292f36;
+justify-content: center;
+display: flex;
 }
 
 .projects-sentence {
@@ -263,6 +267,188 @@ color: #292f36;
 font-size: 22px;
 line-height: 150%;
 letter-spacing: 0.01em;
+color: #4d5053;
+}
+
+.project-images {
+  border-radius: 0 80px 0 0;
+width: 590px;
+height: 661px;
+}
+
+.project-text {
+  font-family:"DM Serif Display", sans-serif;
+  font-weight: 400;
+font-size: 24px;
+line-height: 156%;
+letter-spacing: 0.01em;
+color: #292f36;
+}
+
+.project {
+ font-family: "Jost", sans-serif;
+font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #4d5053;
+}
+
+
+/* .projects-list {
+  display: flex;
+  gap: 60px;
+  background-color:#F5F1EB;
+  text-align: center;
+flex-direction: column;
+padding-bottom: 50px;
+padding-top:50px ;
+} */ 
+
+.projects-container{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color:#F5F1EB;
+  padding-bottom: 50px;
+padding-top:50px ;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-numbers {
+  font-family:"DM Serif Display", sans-serif;
+font-weight: 400;
+font-size: 85px;
+line-height: 150%;
+letter-spacing: 0.02em;
+text-align: center;
+color: #cda274;
+
+}
+
+.project-review{
+  font-family: "Jost", sans-serif;
+   margin-top: 12px;
+  font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+letter-spacing: 0.01em;
 text-align: center;
 color: #4d5053;
+}
+
+.blog-title {
+  font-family:"DM Serif Display", sans-serif;
+  font-weight: 400;
+font-size: 48px;
+line-height: 130%;
+letter-spacing: 0em;
+text-align: center;
+color: #292f36;
+padding-top: 40px;
+padding-bottom: 15px;
+}
+
+.blog-sentence {
+   font-family: "Jost", sans-serif;
+  font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+letter-spacing: 0.01em;
+text-align: center;
+color: #4d5053;
+}
+
+.blog-text {
+   font-family:"DM Serif Display", sans-serif;
+  font-weight: 400;
+font-size: 25px;
+line-height: 140%;
+letter-spacing: 0.02em;
+color: #292f36;
+}
+
+.blog-date {
+    font-family: "Jost", sans-serif;
+  font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #4d5053;
+}
+
+.color {
+     font-family: "Jost", sans-serif;
+  font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+letter-spacing: 0.01em;
+text-align: center;
+color: #cda274;
+}
+
+.footer-ending {
+   font-family: "Jost", sans-serif;
+  font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+letter-spacing: 0.01em;
+text-align: center;
+color: #4d5053;
+padding-top: 40px;
+}
+
+.footer-picture {
+  width: 177px;
+height: 50px;
+color:#CDA274 ;
+}
+
+.footer-sentence {
+   font-family: "Jost", sans-serif;
+  font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #4d5053;
+}
+
+.phone{
+   font-family: "Jost", sans-serif;
+  font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #4d5053;
+}
+
+.gmail{
+     font-family: "Jost", sans-serif;
+  font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #4d5053;
+padding-bottom: 15px;
+padding-top: 15px;
+}
+
+.address{
+    font-family: "Jost", sans-serif;
+  font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #4d5053;
+}
+
+.blog-picture {
+  border-radius: 45px 45px 0 0;
+width: 345px;
+height: 296px;
 }
