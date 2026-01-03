@@ -173,8 +173,30 @@ font-size: 45px;
 line-height: 130%;
 letter-spacing: 0em;
 text-align: center;
+padding-top:50px ;
+padding-bottom: 20px;
 
 }
+
+.people-think {
+  margin: 0 auto;
+  display: flex;
+  gap: 24px;
+  padding: 40px 20px;
+}
+
+.people-image {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.people-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
 
 .people-names {
   font-family: "Jost", sans-serif;
@@ -183,7 +205,7 @@ font-size: 25px;
 line-height: 150%;
 letter-spacing: 0.01em;
 color: #292f36;
-background-color: #F4F0EC;
+
 }
 
 .people-image {
@@ -201,7 +223,8 @@ font-size: 18px;
 line-height: 150%;
 letter-spacing: 0.01em;
 color: #4d5053;
-background-color: #F4F0EC;
+padding-top: 12px;
+padding-bottom: 20px ;
 }
 
 .people-sentence {
@@ -211,7 +234,7 @@ font-size: 20px;
 line-height: 150%;
 letter-spacing: 0.01em;
 color: #4d5053;
-background-color: #F4F0EC;
+
 }
 
 
@@ -430,4 +453,40 @@ color: #4d5053;
   border-radius: 45px 45px 0 0;
 width: 345px;
 height: 296px;
+}
+
+.blog-list {
+  display: flex;
+  gap: 20px;
+}
+
+.websites-text {
+  font-family:"DM Serif Display", sans-serif;
+  font-weight: 400;
+font-size: 25px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #292f36;
+padding-bottom:20px ;
+}
+
+.websites-link{
+    font-family: "Jost", sans-serif;
+  font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #4d5053;
+display: flex;
+flex-direction: column ;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color:#4D5053;
+  font-size: 16px;
+}
+
+ a:hover {
+  text-decoration: underline;
 }
