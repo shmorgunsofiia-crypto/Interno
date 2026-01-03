@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="./css/reset.css" />
   </head>
   <body>
-    <header>
-      <div class="header-container">
+    <header class="header">
+      <div class="container">
         <img class="interno-logo" src="images/interno.png" alt="interno" />
         <nav class="header-nav">
           <ul class="header-list">
@@ -45,7 +45,6 @@
     <main>
       <section class="interno">
         <div class="container">
-          <div class="interno-container">
             <h1 class="interno-title">Let's Create Your Dream Interior</h1>
             <p class="interno-sentence">
               The world needs innovators and problem solvers who turn challenges
@@ -53,7 +52,6 @@
             </p>
             <button class="interno-button">Get Started</button>
           </div>
-        </div>
       </section>
       <section class="about">
         <div class="container">
@@ -83,7 +81,8 @@
         </div>
       </section>
       <section class="contact">
-        <div class="container">
+            <div class="container">
+              <div class="contact-container">
           <h2 class="contact-title">We Tackle The Most Challenging Designs</h2>
           <p class="contact-text">
             The world needs innovators and problem solvers who turn challenges
@@ -91,20 +90,15 @@
             transformative trends challenging the status.
           </p>
           <img class="contact-pictures" src="./images/phone.png" alt="phone" />
-          <div class="pictures">
-            <img
-              class="contact-images"
-              src="./images/beginner-picture.png"
-              alt="kitchen"
-            />
-          </div>
-
           <a class="phone" href="tel:012345678">012345678</a>
           <p class="contact-text">Call Us Anytime</p>
           <button class="contact-button">Get Free Estimate</button>
+          </div>
+          <img src="./images/beginner-picture.png" alt="kitchen">
         </div>
       </section>
       <section class="people">
+            <div class="container">
         <div class="people-container">
           <h2 class="people-title">What the People Thinks About Interno</h2>
         </div>
@@ -118,7 +112,7 @@
               & education.
             </p>
           </div>
-
+          
           <div class="people-card">
             <img class="people-image" src="./images/man.png" />
             <h3 class="people-names">David Knight</h3>
@@ -154,6 +148,7 @@
 
       <section class="Project">
         <div class="project-container">
+         <div class="container">
           <h2 class="projects-title">Recent Projects</h2>
           <p class="projects-sentence">
             With tools to make every part of your process more human and a
@@ -161,6 +156,7 @@
             easier.
           </p>
         </div>
+        <div class="project-pictures">
         <img class="projects-images" src="./images/couch.png" alt="couch" />
         <h3 class="project-text">Winery Dry Creek Building</h3>
         <p class="project">Art Modern</p>
@@ -180,6 +176,7 @@
         <img class="projects-images" src="./images/gold.png" alt="gold" />
         <h3 class="project-text">Light Ambience Sepia Design</h3>
         <p class="project">Scandinavian</p>
+        </div>
 
         <div class="projects-container">
           <div class="projects">
@@ -199,8 +196,10 @@
             <div class="project-review">Happy Customers</div>
           </div>
         </div>
+        </div>
       </section>
       <section class="Blogs">
+          <div class="container">
         <h2 class="blog-title">Recent Blogs</h2>
         <p class="blog-sentence">
           Get updates about our latest trends and techniques used in interior
@@ -275,8 +274,10 @@
           </li>
         </ul>
       </section>
+      </div>
     </main>
     <footer class="footer-container">
+      <div class="container">
       <img class="footer-picture" src="./images/interno.png" alt="Interno" />
       <p class="footer-sentence">
         We are the leading architect and interior design firm in the world.
@@ -316,5 +317,6 @@
         <span class="color">Webflow</span>
       </p>
     </footer>
+    </div>
   </body>
 </html>
