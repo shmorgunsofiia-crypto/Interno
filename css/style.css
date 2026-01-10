@@ -132,6 +132,10 @@ text-align: center;
 color: #4d5053;
 }
 
+.about-item{
+  text-align: center;
+}
+
 .about-list {
   display: flex;
   justify-content: center;
@@ -225,6 +229,9 @@ letter-spacing: 0em;
 text-align: center;
 padding-top:50px ;
 padding-bottom: 20px;
+width:600px ;
+margin: 0 auto;
+margin-bottom: 30px;
 
 }
 
@@ -298,6 +305,8 @@ color: #4d5053;
   justify-content: space-between;
   gap: 48px;
   padding: 24px 40px;
+  margin-top:100px ;
+  margin-bottom: 140px;
 }
 
 .projects-title {
@@ -349,6 +358,7 @@ font-size: 22px;
 line-height: 150%;
 letter-spacing: 0.01em;
 color: #4d5053;
+padding-bottom:50px ;
 }
 
 
