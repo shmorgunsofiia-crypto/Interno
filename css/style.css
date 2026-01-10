@@ -466,6 +466,8 @@ font-size: 22px;
 line-height: 150%;
 letter-spacing: 0.01em;
 color: #4d5053;
+padding-top:15px ;
+padding-bottom: 10px;
 }
 
 .phone{
@@ -508,26 +510,6 @@ height: 296px;
   gap: 20px;
 }
 
-.websites-text {
-  font-family:"DM Serif Display", sans-serif;
-  font-weight: 400;
-font-size: 25px;
-line-height: 150%;
-letter-spacing: 0.01em;
-color: #292f36;
-padding-bottom:20px ;
-}
-
-.websites-link{
-    font-family: "Jost", sans-serif;
-  font-weight: 400;
-font-size: 22px;
-line-height: 150%;
-letter-spacing: 0.01em;
-color: #4d5053;
-display: flex;
-flex-direction: column ;
-}
 
 .footer-column a {
   text-decoration: none;
@@ -554,6 +536,7 @@ line-height: 150%;
 letter-spacing: 0em;
 text-align: center;
 color: #fff;
+padding-top: 50px;
 }
 
 .footer-text{
@@ -580,5 +563,65 @@ background-color: #CDA274;
 display: block;
 margin: 0 auto;
 margin-top:36px ;
+}
 
+footer {
+  padding: 80px 100px 40px;
+  background-color: #fff;
+  font-family: "DM Serif Display", serif;
+  color: #292f36;
+}
+
+.websites-list {
+  display: flex;
+  gap: 120px;
+  list-style: none;
+  align-items: flex-start;
+}
+
+
+.websites-item {
+
+}
+
+.websites-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.websites-text {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+font-size: 25px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #292f36;
+  margin-bottom: 10px;
+}
+
+
+.websites-link {
+  font-family: "Jost", sans-serif;
+  text-decoration: none;
+font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #4d5053;
+}
+
+.websites-link:hover {
+  color: #cda274;
+}
+
+
+.address {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #4d5053;
+  margin-top: 10px;
 }
