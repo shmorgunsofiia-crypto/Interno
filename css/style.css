@@ -367,9 +367,12 @@ padding-bottom:50px ;
   display: flex;
   justify-content: space-between;
   text-align: center;
-  background-color:#F5F1EB;
   padding-bottom: 50px;
 padding-top:50px ;
+}
+
+.review {
+  background-color:#F5F1EB;
 }
 
 .projects {
