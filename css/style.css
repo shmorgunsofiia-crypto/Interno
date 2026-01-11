@@ -14,7 +14,7 @@ padding-bottom: 14px;
 width: 177px;
 height: 50px;
 color:#CDA274 ;
-background-color: red;
+/* background-color: red; */
 }
 
 .home {
@@ -169,6 +169,7 @@ align-items: center;
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
+  border-radius: 18px;
 }
 
 .contact-box {
@@ -604,6 +605,7 @@ background-color: #CDA274;
 display: block;
 margin: 0 auto;
 margin-top:36px ;
+border-radius: 18px;
 }
 
 footer {
