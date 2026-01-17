@@ -452,6 +452,7 @@ line-height: 140%;
 letter-spacing: 0.02em;
 color: #292f36;
 width: 335px;
+padding-top:15px ;
 }
 
 .blog-date {
@@ -667,4 +668,10 @@ line-height: 150%;
 letter-spacing: 0.01em;
 color: #4d5053;
   margin-top: 10px;
+}
+
+.social-media {
+  width: 333px;
+height: 53px;
+fill: #292F36;
 }
