@@ -497,6 +497,16 @@ padding-top: 40px;
   width: 177px;
 height: 50px;
 color:#CDA274 ;
+display: block;
+}
+
+.footer-main {
+  max-width: 1200px;
+  margin: 0 auto;
+   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
 }
 
 .footer-sentence {
@@ -508,18 +518,28 @@ letter-spacing: 0.01em;
 color: #4d5053;
 padding-top:15px ;
 padding-bottom: 10px;
+max-width: 326px;
 }
 
-.phone{
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+height: 285px;
+}
+
+ .phone{
    font-family: "Jost", sans-serif;
   font-weight: 400;
 font-size: 22px;
 line-height: 150%;
 letter-spacing: 0.01em;
 color: #4d5053;
-}
+width:178px ;
+ 
+} 
 
-.gmail{
+ .gmail{
      font-family: "Jost", sans-serif;
   font-weight: 400;
 font-size: 22px;
@@ -528,15 +548,7 @@ letter-spacing: 0.01em;
 color: #4d5053;
 padding-bottom: 15px;
 padding-top: 15px;
-}
-
-.address{
-    font-family: "Jost", sans-serif;
-  font-weight: 400;
-font-size: 22px;
-line-height: 150%;
-letter-spacing: 0.01em;
-color: #4d5053;
+width:207px ;
 }
 
 .blog-picture {
@@ -561,10 +573,11 @@ height:auto;
 
  a:hover {
   text-decoration: underline;
+
 }
 
-.footer-list{
-  border-radius: 70px;
+.footer-item{
+   border-radius: 70px;
 width: 1200px;
 height: 414px;
 background: #292f36;
@@ -615,6 +628,14 @@ footer {
   color: #292f36;
 }
 
+.footer-brand {
+  max-width:177px ;
+   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
 .websites-list {
   display: flex;
   gap: 120px;
@@ -624,11 +645,7 @@ footer {
 
 
 .websites-item {
-
-}
-
-.websites-container {
-  display: flex;
+display: flex;
   flex-direction: column;
   gap: 18px;
 }
@@ -641,25 +658,11 @@ line-height: 150%;
 letter-spacing: 0.01em;
 color: #292f36;
   margin-bottom: 10px;
+  padding-top:50px ;
 }
 
 
 .websites-link {
-  font-family: "Jost", sans-serif;
-  text-decoration: none;
-font-weight: 400;
-font-size: 22px;
-line-height: 150%;
-letter-spacing: 0.01em;
-color: #4d5053;
-}
-
-.websites-link:hover {
-  color: #cda274;
-}
-
-
-.address {
   font-family: "Jost", sans-serif;
   font-weight: 400;
 font-size: 22px;
@@ -667,10 +670,28 @@ line-height: 150%;
 letter-spacing: 0.01em;
 color: #4d5053;
   margin-top: 10px;
+  font-style: normal;
+  text-decoration: none;
 }
+
+.websites-link:hover {
+  color: #cda274;
+}
+
+
+ /* .address {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #4d5053;
+  margin-top: 10px;
+  font-style: normal;
+}  */
 
 .social-media {
   width: 333px;
-height: 53px;
+height: 40px;
 fill: #292F36;
 }
